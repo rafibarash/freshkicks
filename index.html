@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="stylesheet" href="css/bootstrap.css">
+	<script src="js/jquery.min.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/tether.js"></script>
+	<script src="js/scripts.js"></script>
+	<title>Freshkicks</title>
+</head>
+
+<body>
+
+
+<header>
+	<style>
+		nav a {
+			color: white;
+		}
+		nav a:hover {
+			background-color: white;
+			color: black;
+			border-radius: 0.5rem;
+		}
+		div form button{
+			background-color: white;
+			color: black;
+		}
+		div form button:hover {
+			background-color: black;
+			color: white;
+		}
+		div.dropdown:hover div.dropdown-menu {
+		    display: block;
+		    margin-top: 0;
+		}
+	</style>
+
+	<nav class="navbar bg-inverse fixed-top navbar-toggleable-md" style="height: 4rem;">
+
+		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNav" aria-controls="mainNav" 
+			aria-expanded="false" aria-label="Toggle Navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+	    <div class="collapse navbar-collapse" id="myNav">
+		    <div class="navbar-nav">
+		    	<a class="nav-item navbar-brand px-3" href="#">Fresh Kicks</a>
+		    	<div class="dropdown"> <!-- a dropdown -->
+					<a href="#" class="dropdown-toggle nav-item nav-link active px-3" data-toggle="dropdown" id="projectsDropdown" aria-haspopup="true" aria-expanded="false">Our Products</a>
+					<div class="dropdown-menu" aria-labeledby="projectsDropdown"> <!-- a dropdown menu -->
+						<a href="#" class="dropdown-item">Cleaning Kits</a>
+						<a href="#" class="dropdown-item">Individual Products</a>
+					</div> <!-- end a dropdown-menu -->
+				</div> <!-- end a dropdown -->
+		    	<a href="#" class="nav-item nav-link active px-3">Our Team</a></button>
+				<a href="#" class="nav-item nav-link active px-3">Cart</a>
+				<a href="#" class="nav-item nav-link active px-3">Account</a>
+				<form class="form-inline">
+					<input class="form-control mx-2" type="text" placeholder="Search">
+					<button class="btn btn-outline-inverse" type="submit">Submit</button>
+				</form>
+		    </div><!-- navbar-nav -->
+		</div> <!-- collapse -->
+	 </nav><!-- nav -->
+</header>
+
+<div style="height: 4rem;">
+</div>
+
+<section id="mainContent">
+	<section id="intro">
+		<div class="d-flex justify-content-center align-items-center" style="width: 100%; height: 75vh; border: 2px dotted black">
+			<h1>Place an image here</h1>
+		</div>
+	</section>
+
+	<section id="products" class="container my-4">
+		<h1>Products</h1>
+		<section id="cleaningKits" class="container my-4">
+			<h2>Cleaning Kits</h2>
+			<div class="row my-4">
+				<div class="col-5 d-flex justify-content-center align-items-center p-4" style="border: 2px dotted black;">
+					<h2 class="">First kit</h2>
+				</div> <!-- end col -->
+
+				<div class="col-2">
+				</div>
+
+				<div class="col-5 d-flex justify-content-center align-items-center p-4" style="border: 2px dotted black;">
+					<h2>Second kit</h2>
+				</div> <!-- end col -->
+			</div> <!-- end row --> 
+		</section>
+
+		<section id="individualProducts" class="container my-4">
+			<h2>Individual Products</h2>
+			<div class="row my-4">
+				<div class="col-5 d-flex justify-content-center align-items-center p-4" style="border: 2px dotted black;">
+					<h2>First product</h2>
+				</div> <!-- end col -->
+
+				<div class="col-2">
+				</div>
+
+				<div class="col-5 d-flex justify-content-center align-items-center p-4" style="border: 2px dotted black;">
+					<h2>Second product</h2>
+				</div> <!-- end col -->
+			</div> <!-- end row --> 
+		</section>
+	</section>
+
+	<section id="about" class="container my-4">
+		<h1 class="my-4">About Us</h1>
+		<div class="d-flex justify-content-center align-items-center" style="width: 100%; height: 15rem; border: 2px dotted black">
+			<h2>Enter Text Here</h2>
+		</div>
+	</section>
+</section><!-- end main content -->
+
+<footer>
+	<div class="p-4 text-center" style="background-color: black; color: white;">
+		<h2>FreshKicks</h2>
+	</div>
+</footer>
+
+</body>
+</html>
